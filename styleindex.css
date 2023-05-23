@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(130, 243, 181);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-nav-header {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+
+.fa-linkedin-in{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-github{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-instagram{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-facebook-f{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-twitter{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-envelope{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.fa-whatsapp{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.features-main { 
+    
+}
+
+.box-texto {
+color: white;
+}
+
+.box-imagen {
+    color: white;
+}
+
+.features-section {
+    color: white;
+}
+
+
+@media (max-width: 1200px) {
+    .list-nav {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .list-nav {
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .list-nav {
+        width: 35%;
+    }
+}
+@media (max-width: 700px) {
+    .list-nav {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .list-nav {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .list-nav {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-nav {
+        width: 75%;
+    }
+}
+
+@media (max-width: 350px) {
+    .list-nav {
+        width: 85%;
+    }
+}
+
+@media (max-width: 280px) {
+    .list-nav {
+        width: 90%;
+    }
+}
