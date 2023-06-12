@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+.header-navigator{
+    display: flex;
+    background-color: rgb(87, 5, 72);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    height: 95px;
+    position: sticky;
+    top: 0;
+}
+
+.navigator-features{
+    display: flex;
+    height: 95px;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    text-align: end;
+}
+
+.ul-features{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    width: 100%;
+    text-align: end;
+}
+
+.li-features{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+}
+
+
+/* PRESENTACION */
+
+
+.section-hello{
+    min-height: calc(100% - 10vh);
+    padding: 150px 45px 140px;
+    background-color: antiquewhite;
+    display: block;
+
+}
+
+.div-presentacion{
+display: flex;
+}
+
+.div-text-presentacion{
+    text-align: center;
+    padding-top: 60px;
+    margin: auto;
+}
+
+.h1-presentacion{
+    font-size: xxx-large;
+}
+
+.buttom-whatido{
+display: block;
+background-color: black;
+color: aliceblue;
+border-radius: 40px;
+margin-top: 10px;
+padding: 5px;
+width: 15%;
+margin: auto;
+text-decoration: none;
+}
+
+.image-rocio{
+    border-radius: 50%;
+    width: 70%;
+    margin-left: 30%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+/* KNOWLEDGE */
+
+
+.section-knowledge{
+    display: inline-block;
+    padding: 150px 45px 140px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-cards-knowledge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.div-knowledge{
+    border: 1px black solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 60px;
+    
+}
+
+.div-text-knowledge{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+
+.p-knowledge{
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.fa-brands{
+font-size: 70px;
+}
+
+
+/* SECCION QUOTE */
+
+
+.section-quote{
+    min-height: calc(100% - 10vh);
+    padding: 150px 45px 140px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(215, 152, 245);
+}
+
+.div-quote{
+    text-align: center;
+}
+
+.fa-quote-right{
+    font-size: 100px;
+    color: rgb(68, 23, 110);
+}
+
+.parrafo-quote{
+    font-size: 40px;
+}
+
+/* PROYECTS */
+
+.div-cards-proyects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.section-proyects{
+    display: inline-block;
+    padding: 150px 45px 140px;
+    background-color: rgb(255, 255, 255);
+}
+
+.article-proyects{
+    border: 1px black solid;
+    box-shadow: rgba(185, 6, 117, 0.582) 0px 7px 29px 0px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding: 60px;
+}
+
+.image-proyects{
+    display: block;
+    width: 100%;
+    overflow: clip;
+}
+
+.div-proyects{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+
+.h2-proyects{
+text-align: center;
+}
+
+.p-proyects-extent{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.p-proyects{
+    font-weight: 400;
+    ;
+
+}
+
+
+/* FOOTER */
+
+
+.footer-contact{
+
+}
+
+.div-contact-media{
+    display: flex;
+    min-height: calc(100% - 10vh);
+    padding: 150px 45px 140px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(228, 220, 211);
+}
+
+.div-form{
+
+}
+
+.ul-media{
+
+}
+
+.li-media{
+list-style: none;
+}
+
+
+/* SHARED */
+
+
+#font-all {
+    font-family: 'Abel';
+    font-size: larger;
+}
