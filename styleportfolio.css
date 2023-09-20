@@ -49,7 +49,6 @@ body {
     padding: 150px 45px 140px;
     background-color: antiquewhite;
     display: block;
-
 }
 
 .div-presentacion{
@@ -76,6 +75,10 @@ padding: 5px;
 width: 15%;
 margin: auto;
 text-decoration: none;
+}
+
+.div-image{
+    display: flex;
 }
 
 .image-rocio{
@@ -183,6 +186,7 @@ font-size: 70px;
     margin: 10px;
     text-align: center;
     padding: 60px;
+    cursor: pointer;
 }
 
 .image-proyects{
@@ -210,39 +214,112 @@ text-align: center;
 
 .p-proyects{
     font-weight: 400;
-    ;
-
 }
 
+/* FORM */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div-form{
+    display: flex;
+    min-height: calc(50% - 10vh);
+    padding: 150px 45px 140px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(148, 141, 134);
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-form{
+    align-items: center;
+}
+.line-write{
+    border-radius: 4px;
+}
 
 /* FOOTER */
 
 
 .footer-contact{
-
+    background-color: antiquewhite;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-contact-media{
-    display: flex;
-    min-height: calc(100% - 10vh);
-    padding: 150px 45px 140px;
+    display: inline-flex;
+    height: 80px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: calc(50% - 10vh);
     text-align: center;
     justify-content: center;
     background-color: rgb(228, 220, 211);
 }
 
-.div-form{
-
+.icon-media{
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
 }
 
-.ul-media{
-
+.fa-brands{
+    font-size: 50px;
+    margin: 20px;
 }
 
-.li-media{
-list-style: none;
+.fa-linkedin-in{
+    font-size: 20px;
+    margin-right: 10px;
 }
 
+.fa-github{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-facebook-f{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-twitter{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-whatsapp{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.box-rights{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rights-reserved{
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+}
 
 /* SHARED */
 
@@ -251,3 +328,9 @@ list-style: none;
     font-family: 'Abel';
     font-size: larger;
 }
+
+
+#contact {
+    text-align: center;
+}
+
